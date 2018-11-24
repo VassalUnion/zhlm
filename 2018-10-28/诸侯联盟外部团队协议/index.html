@@ -179,7 +179,7 @@
       </a>
     </div>
       
-        <p class="site-subtitle">Vassal Union</p>
+        <h1 class="site-subtitle" itemprop="description">Vassal Union</h1>
       
   </div>
 
@@ -215,6 +215,16 @@
               <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
             
             标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
           </a>
         </li>
       
@@ -312,7 +322,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">诸侯联盟外部团队协议</h1>
+          <h2 class="post-title" itemprop="name headline">诸侯联盟外部团队协议</h2>
         
 
         <div class="post-meta">
@@ -337,6 +347,16 @@
           
 
           
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018-10-28/诸侯联盟外部团队协议/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018-10-28/诸侯联盟外部团队协议/" itemprop="commentCount"></span>
+                </a>
+              </span>
             
           
 
@@ -372,19 +392,7 @@
               
 
               
-                <span class="post-meta-divider">|</span>
-              
 
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-clock-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
-                
-                <span title="阅读时长">
-                  1
-                </span>
               
             </div>
           
@@ -540,7 +548,7 @@
                 alt="ZHLM" />
             
               <p class="site-author-name" itemprop="name">ZHLM</p>
-              <p class="site-description motion-element" itemprop="description">诸侯联盟指定文章发布网站</p>
+              <p class="site-description motion-element" itemprop="description"></p>
           </div>
 
           <nav class="site-state motion-element">
@@ -828,6 +836,28 @@
 
 
 
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'dSwoaO1eMGd8Kk8dB0qIuUbY-gzGzoHsz',
+        appKey: 'boNwaUP2zvwGIAhzs80OtmDg',
+        placeholder: 'Just go go',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 
@@ -1322,11 +1352,14 @@
         }
       });
     </script>
-    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
   
 
 
   
+  <script type="text/javascript" src="/js/src/js.cookie.js?v=5.1.4"></script>
+  <script type="text/javascript" src="/js/src/scroll-cookie.js?v=5.1.4"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+
 
   
 

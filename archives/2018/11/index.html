@@ -177,7 +177,7 @@
       </a>
     </div>
       
-        <p class="site-subtitle">Vassal Union</p>
+        <h1 class="site-subtitle" itemprop="description">Vassal Union</h1>
       
   </div>
 
@@ -213,6 +213,16 @@
               <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
             
             标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
           </a>
         </li>
       
@@ -304,7 +314,7 @@
         
           
           <div class="collection-title">
-            <h1 class="archive-year" id="archive-year-2018">2018</h1>
+            <h2 class="archive-year" id="archive-year-2018">2018</h2>
           </div>
         
         
@@ -314,7 +324,7 @@
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
 
-      <h2 class="post-title">
+      <h3 class="post-title">
         
             <a class="post-title-link" href="/2018-11-7/诸侯联盟外部团队列表/" itemprop="url">
               
@@ -322,7 +332,7 @@
               
             </a>
         
-      </h2>
+      </h3>
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
@@ -384,7 +394,7 @@
                 alt="ZHLM" />
             
               <p class="site-author-name" itemprop="name">ZHLM</p>
-              <p class="site-description motion-element" itemprop="description">诸侯联盟指定文章发布网站</p>
+              <p class="site-description motion-element" itemprop="description"></p>
           </div>
 
           <nav class="site-state motion-element">
@@ -657,6 +667,28 @@
 
 
 
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'dSwoaO1eMGd8Kk8dB0qIuUbY-gzGzoHsz',
+        appKey: 'boNwaUP2zvwGIAhzs80OtmDg',
+        placeholder: 'Just go go',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 
@@ -1134,11 +1166,14 @@
         }
       });
     </script>
-    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
   
 
 
   
+  <script type="text/javascript" src="/js/src/js.cookie.js?v=5.1.4"></script>
+  <script type="text/javascript" src="/js/src/scroll-cookie.js?v=5.1.4"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+
 
   
 
