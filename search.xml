@@ -3,13 +3,13 @@
   <entry>
     <title><![CDATA[天坑：联盟棋的开发]]></title>
     <url>%2F2019-4-29%2F%E5%A4%A9%E5%9D%91%EF%BC%9A%E8%81%94%E7%9B%9F%E6%A3%8B%E7%9A%84%E5%BC%80%E5%8F%91%2F</url>
-    <content type="text"><![CDATA[先立一个大flag，以后再来填。我不会告诉你我连联盟棋的规则都没有想好]]></content>
+    <content type="text"><![CDATA[先立一个大flag，以后再来填。项目地址：https://git.dev.tencent.com/zhlm/unity-chess.git开发者：我，ZimoCP，zhangjianjunabQt5 （还不会）我不会告诉你我连联盟棋的规则都没有想好]]></content>
       <categories>
         <category>开发</category>
       </categories>
       <tags>
-        <tag>项目</tag>
         <tag>重要</tag>
+        <tag>项目</tag>
         <tag>计划</tag>
       </tags>
   </entry>
@@ -21,8 +21,8 @@
         <category>生产力</category>
       </categories>
       <tags>
-        <tag>git</tag>
         <tag>项目</tag>
+        <tag>git</tag>
       </tags>
   </entry>
   <entry>
